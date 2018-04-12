@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { UserGroupComponent } from './user-group/user-group.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserListComponent,
+    UserGroupComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule
