@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserGroupComponent } from './user-group/user-group.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
+import { UserWindowComponent } from './user-window/user-window.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
     AppComponent,
     UserListComponent,
     UserGroupComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    UserWindowComponent
   ],
   imports: [
     BrowserModule
