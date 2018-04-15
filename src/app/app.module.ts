@@ -2,11 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
+
 import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserGroupComponent } from './user-group/user-group.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { UserWindowComponent } from './user-window/user-window.component';
+import { TableComponent } from './table/table.component';
 
 
 @NgModule({
@@ -15,11 +17,11 @@ import { UserWindowComponent } from './user-window/user-window.component';
     UserListComponent,
     UserGroupComponent,
     MenuBarComponent,
-    UserWindowComponent
+    UserWindowComponent,
+    TableComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,    ],
   providers: [],
   bootstrap: [AppComponent]
 })
